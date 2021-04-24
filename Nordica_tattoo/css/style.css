@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 :root {
@@ -36,6 +36,7 @@ body {
   align-items: center;
   position: sticky;
   top: 0;
+  flex-wrap: wrap;
 }
 .header .navBar a {
   color: var(--color4);
@@ -44,7 +45,7 @@ body {
   font-weight: 700;
   transition: 1s;
 }
-.header .navBar a:hover{
+.header .navBar a:hover {
   color: var(--color3);
 }
 
@@ -70,6 +71,7 @@ body {
   font-family: "Seven swordsman";
   font-size: 8em;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -101,6 +103,7 @@ body {
   object-fit: fill;
   transform: translateY(3px);
 }
+
 /* **************************** About Us ****************************** */
 .aboutUs {
   width: 100%;
@@ -129,6 +132,8 @@ body {
   padding: 20px;
   border-radius: 50%;
   object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
 }
 .aboutUs .wrapper .wrapperGrid h2 {
   justify-content: center;
@@ -363,10 +368,10 @@ body {
 .services .wrapper .servicesGrid .ourServices .contentService a {
   visibility: hidden; /* mostrar para el hover */
 }
-.services .wrapper .servicesGrid .ourServices:hover{
+.services .wrapper .servicesGrid .ourServices:hover {
   opacity: 100%;
 }
-.services .wrapper .servicesGrid .ourServices:hover .contentService a{
+.services .wrapper .servicesGrid .ourServices:hover .contentService a {
   transition: 1.5s;
   transform: translateY(-20px);
   visibility: visible;
@@ -416,12 +421,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-.contactUs .wrapper .contactGrid .icon:hover{
+.contactUs .wrapper .contactGrid .icon:hover {
   transform: translateY(-35px);
   transition: 1s;
   color: var(--color3);
 }
-.contactUs .wrapper .contactGrid .icon a:hover{
+.contactUs .wrapper .contactGrid .icon a:hover {
   color: var(--color3);
 }
 .contactUs .wrapper .contactGrid .icon a {
@@ -432,6 +437,7 @@ body {
   font-size: 25px;
   transform: translateY(-25px);
 }
+
 /* *************************** Footer **************************************************** */
 .footer {
   background: var(--color2);
@@ -448,7 +454,7 @@ body {
   color: var(--color4);
   font-size: 25px;
 }
-.footer .designerContact a:hover{
+.footer .designerContact a:hover {
   color: var(--color3);
 }
 .footer .designerContact p span {

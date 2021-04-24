@@ -1,0 +1,74 @@
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: auto;
+    padding: 0;
+  }
+  .header {
+    display: block;
+  }
+  .header .navBar a {
+    padding-bottom: 20px;
+  }
+  .logo {
+    flex-direction: column;
+  }
+  .nordicaLogo {
+    max-width: 390px;
+    padding: 10px;
+    overflow: auto;
+  }
+  .logo .nordicaLogo h1 {
+    font-size: 78px;
+  }
+  .logo .imgPrincipal img {
+    width: 390px;
+    height: 390px;
+    object-fit: cover;
+  }
+  .wrapperGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutUs .wrapper .wrapperGrid .imgAboutUs img {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutUs .wrapper .wrapperGrid .imgAboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapperGridCulture {
+    display: flex;
+    flex-direction: column;
+  }
+  .artCulture .wrapper .wrapperGridCulture .imgArtCulture img {
+    width: 380px;
+    height: 380px;
+  }
+  .artists .gridArtists {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .services .servicesGrid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .contactUs .wrapper .contactGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactUs .wrapper .contactGrid h2 {
+    font-size: 78px;
+  }
+  .footer .designerContact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .designerContact a{
+    padding-bottom: 20px;
+  }
+}
